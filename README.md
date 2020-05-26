@@ -25,8 +25,8 @@ ex) git clone https://github.com/ABMI/WeeklyWorkReport-2020.wiki.git
 - home.md
 - N월 N주차-주간스케쥴.md
 
-## 6. wiki_to_html_to_pdf.R 파일 이동
-주간보고가 있는 파일안에 wiki_to_html_to_pdf.R 파일을 넣어준 뒤 코드 실행  
+## 6. weeklyReportToPdf.R 파일 이동
+주간보고가 있는 파일안에 weeklyReportToPdf.R 파일을 넣어준 뒤 코드 실행  
 
 - R 실행시 주의사항  
 getwd() 명령어로 현재 경로가 주간보고가 있는 경로가 맞는지 확인 아닐 시, setwd()로 경로 변경
