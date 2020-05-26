@@ -99,14 +99,13 @@ for(k in 1:length(mdFileName)){
   
   #html to pdf
   myFile=paste0('./',headName,'.html')
-  wkhtmltopdf_exe="C:/Programs/wkhtmltopdf/bin/wkhtmltopdf.exe"
+  wkhtmltopdf_exe="./wkhtmltopdf/bin/wkhtmltopdf.exe"
   save_as=paste0('./',headName,'.pdf')
   x=paste0(wkhtmltopdf_exe," --encoding 'UTF-8' ",myFile," ",save_as)
   system(x)
   #remove html
   system(paste0('rm ',headName,'.html'))
 }
-
 
 
 
